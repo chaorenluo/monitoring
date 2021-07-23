@@ -1,0 +1,20 @@
+{
+  "name": "@monitoring/core",
+  "version": "0.0.1",
+  "description": "@monitoring/core",
+  "license": "MIT",
+  "main": "dist/core.js",
+  "module": "dist/core.esm.js",
+  "types": "dist/core.d.ts",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@monitoring/browser": "0.0.1",
+    "@monitoring/core": "0.0.1",
+    "@monitoring/rrweb": "^0.9.14",
+    "@monitoring/shared": "0.0.1",
+    "@monitoring/types": "0.0.1",
+    "rrweb": "^0.9.14"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@monitoring/utils",
+  "version": "0.0.1",
+  "description": "@monitoring/utils",
+  "license": "MIT",
+  "main": "dist/utils.js",
+  "module": "dist/utils.esm.js",
+  "types": "dist/utils.d.ts",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@monitoring/core": "0.0.1",
+    "@monitoring/browser": "0.0.1",
+    "@monitoring/shared": "0.0.1",
+    "@monitoring/types": "0.0.1"
+  }
+}

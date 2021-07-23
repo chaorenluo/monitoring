@@ -1,0 +1,1382 @@
+{
+  "metadata": {
+    "toolPackage": "@microsoft/api-extractor",
+    "toolVersion": "7.16.1",
+    "schemaVersion": 1004,
+    "oldestForwardsCompatibleVersion": 1001,
+    "tsdocConfig": {
+      "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
+      "noStandardTags": true,
+      "tagDefinitions": [
+        {
+          "tagName": "@alpha",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@beta",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@defaultValue",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@decorator",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@deprecated",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@eventProperty",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@example",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@experimental",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@inheritDoc",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@internal",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@label",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@link",
+          "syntaxKind": "inline",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@override",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@packageDocumentation",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@param",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@privateRemarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@public",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@readonly",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@remarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@returns",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@sealed",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@see",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@throws",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@typeParam",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@virtual",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@betaDocumentation",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@internalRemarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@preapproved",
+          "syntaxKind": "modifier"
+        }
+      ],
+      "supportForTags": {
+        "@alpha": true,
+        "@beta": true,
+        "@defaultValue": true,
+        "@decorator": true,
+        "@deprecated": true,
+        "@eventProperty": true,
+        "@example": true,
+        "@experimental": true,
+        "@inheritDoc": true,
+        "@internal": true,
+        "@label": true,
+        "@link": true,
+        "@override": true,
+        "@packageDocumentation": true,
+        "@param": true,
+        "@privateRemarks": true,
+        "@public": true,
+        "@readonly": true,
+        "@remarks": true,
+        "@returns": true,
+        "@sealed": true,
+        "@see": true,
+        "@throws": true,
+        "@typeParam": true,
+        "@virtual": true,
+        "@betaDocumentation": true,
+        "@internalRemarks": true,
+        "@preapproved": true
+      }
+    }
+  },
+  "kind": "Package",
+  "canonicalReference": "@monitoring/shared!",
+  "docComment": "",
+  "name": "@monitoring/shared",
+  "members": [
+    {
+      "kind": "EntryPoint",
+      "canonicalReference": "@monitoring/shared!",
+      "name": "",
+      "members": [
+        {
+          "kind": "Enum",
+          "canonicalReference": "@monitoring/shared!BREADCRUMBCATEGORYS:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare enum BREADCRUMBCATEGORYS "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "BREADCRUMBCATEGORYS",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!BREADCRUMBCATEGORYS.DEBUG:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "DEBUG = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"debug\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "DEBUG",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!BREADCRUMBCATEGORYS.EXCEPTION:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "EXCEPTION = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"exception\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "EXCEPTION",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!BREADCRUMBCATEGORYS.HTTP:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "HTTP = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"http\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "HTTP",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!BREADCRUMBCATEGORYS.LIFECYCLE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "LIFECYCLE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"lifecycle\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "LIFECYCLE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!BREADCRUMBCATEGORYS.USER:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "USER = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"user\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "USER",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@monitoring/shared!BREADCRUMBTYPES:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare enum BREADCRUMBTYPES "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "BREADCRUMBTYPES",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!BREADCRUMBTYPES.CLICK:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "CLICK = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"UI.Click\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "CLICK",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!BREADCRUMBTYPES.CODE_ERROR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "CODE_ERROR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Code Error\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "CODE_ERROR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!BREADCRUMBTYPES.CONSOLE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "CONSOLE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Console\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "CONSOLE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!BREADCRUMBTYPES.CUSTOMER:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "CUSTOMER = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Customer\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "CUSTOMER",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!BREADCRUMBTYPES.FETCH:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "FETCH = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Fetch\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "FETCH",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!BREADCRUMBTYPES.REACT:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "REACT = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"React\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "REACT",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!BREADCRUMBTYPES.RESOURCE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "RESOURCE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Resource\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "RESOURCE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!BREADCRUMBTYPES.ROUTE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "ROUTE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Route\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "ROUTE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!BREADCRUMBTYPES.UNHANDLEDREJECTION:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "UNHANDLEDREJECTION = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Unhandledrejection\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "UNHANDLEDREJECTION",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!BREADCRUMBTYPES.VUE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "VUE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Vue\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "VUE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!BREADCRUMBTYPES.XHR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "XHR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"xhr\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "XHR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "@monitoring/shared!CompositeEvents:type",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare type CompositeEvents = "
+            },
+            {
+              "kind": "Content",
+              "text": "typeof "
+            },
+            {
+              "kind": "Reference",
+              "text": "CompositeEvents",
+              "canonicalReference": "@monitoring/shared!CompositeEvents:var"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "CompositeEvents",
+          "typeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 3
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@monitoring/shared!CompositeEvents:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "CompositeEvents: "
+            },
+            {
+              "kind": "Content",
+              "text": "{\n    UNKNOWN: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ERRORTYPES.UNKNOWN",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.UNKNOWN:member"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    UNKNOWN_FUNCTION: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ERRORTYPES.UNKNOWN_FUNCTION",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.UNKNOWN_FUNCTION:member"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    JAVASCRIPT_ERROR: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ERRORTYPES.JAVASCRIPT_ERROR",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.JAVASCRIPT_ERROR:member"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    LOG_ERROR: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ERRORTYPES.LOG_ERROR",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.LOG_ERROR:member"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    HTTP_ERROR: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ERRORTYPES.HTTP_ERROR",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.HTTP_ERROR:member"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    FETCH_ERROR: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ERRORTYPES.FETCH_ERROR",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.FETCH_ERROR:member"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    VUE_ERROR: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ERRORTYPES.VUE_ERROR",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.VUE_ERROR:member"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    REACT_ERROR: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ERRORTYPES.REACT_ERROR",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.REACT_ERROR:member"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    RESOURCE_ERROR: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ERRORTYPES.RESOURCE_ERROR",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.RESOURCE_ERROR:member"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    PROMISE_ERROR: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ERRORTYPES.PROMISE_ERROR",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.PROMISE_ERROR:member"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    ROUTE_ERROR: "
+            },
+            {
+              "kind": "Reference",
+              "text": "ERRORTYPES.ROUTE_ERROR",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.ROUTE_ERROR:member"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n}"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "CompositeEvents",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 24
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@monitoring/shared!ERROR_TYPE_RE:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "ERROR_TYPE_RE: "
+            },
+            {
+              "kind": "Reference",
+              "text": "RegExp",
+              "canonicalReference": "!RegExp:interface"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "ERROR_TYPE_RE",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@monitoring/shared!ERRORTYPES:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare enum ERRORTYPES "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "ERRORTYPES",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.FETCH_ERROR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "FETCH_ERROR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"FETCH_HTTP_ERROR\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "FETCH_ERROR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.HTTP_ERROR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "HTTP_ERROR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"HTTP_ERROR\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "HTTP_ERROR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.JAVASCRIPT_ERROR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "JAVASCRIPT_ERROR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"JAVASCRIPT_ERROR\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "JAVASCRIPT_ERROR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.LOG_ERROR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "LOG_ERROR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"LOG_ERROR\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "LOG_ERROR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.PROMISE_ERROR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "PROMISE_ERROR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"PROMISE_ERROR\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "PROMISE_ERROR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.REACT_ERROR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "REACT_ERROR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"REACT_ERROR\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "REACT_ERROR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.RESOURCE_ERROR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "RESOURCE_ERROR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"RESOURCE_ERROR\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "RESOURCE_ERROR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.ROUTE_ERROR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "ROUTE_ERROR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"ROUTE_ERROR\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "ROUTE_ERROR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.UNKNOWN:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "UNKNOWN = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"UNKNOWN\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "UNKNOWN",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.UNKNOWN_FUNCTION:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "UNKNOWN_FUNCTION = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"UNKNOWN_FUNCTION\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "UNKNOWN_FUNCTION",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!ERRORTYPES.VUE_ERROR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "VUE_ERROR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"VUE_ERROR\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "VUE_ERROR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@monitoring/shared!EVENTTYPES:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare enum EVENTTYPES "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "EVENTTYPES",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!EVENTTYPES.CONSOLE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "CONSOLE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"console\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "CONSOLE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!EVENTTYPES.DOM:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "DOM = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"dom\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "DOM",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!EVENTTYPES.ERROR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "ERROR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"error\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "ERROR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!EVENTTYPES.FETCH:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "FETCH = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"fetch\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "FETCH",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!EVENTTYPES.HASHCHANGE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "HASHCHANGE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"hashchange\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "HASHCHANGE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!EVENTTYPES.HISTORY:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "HISTORY = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"history\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "HISTORY",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!EVENTTYPES.UNHANDLEDREJECTION:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "UNHANDLEDREJECTION = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"unhandledrejection\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "UNHANDLEDREJECTION",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!EVENTTYPES.VUE:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "VUE = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"Vue\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "VUE",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!EVENTTYPES.XHR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "XHR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"xhr\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "XHR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@monitoring/shared!globalVar:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "globalVar: "
+            },
+            {
+              "kind": "Content",
+              "text": "{\n    isLogAddBreadcrumb: boolean;\n    crossOriginThreshold: number;\n}"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "globalVar",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@monitoring/shared!HTTP_CODE:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare enum HTTP_CODE "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "HTTP_CODE",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!HTTP_CODE.BAD_REQUEST:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "BAD_REQUEST = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "400"
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "BAD_REQUEST",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!HTTP_CODE.INTERNAL_EXCEPTION:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "INTERNAL_EXCEPTION = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "500"
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "INTERNAL_EXCEPTION",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!HTTP_CODE.UNAUTHORIZED:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "UNAUTHORIZED = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "401"
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "UNAUTHORIZED",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Enum",
+          "canonicalReference": "@monitoring/shared!HTTPTYPE:enum",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare enum HTTPTYPE "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "HTTPTYPE",
+          "members": [
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!HTTPTYPE.FETCH:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "FETCH = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"fetch\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "FETCH",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "EnumMember",
+              "canonicalReference": "@monitoring/shared!HTTPTYPE.XHR:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "XHR = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "\"xhr\""
+                }
+              ],
+              "releaseTag": "Public",
+              "name": "XHR",
+              "initializerTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@monitoring/shared!SDK_NAME:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "SDK_NAME = \"monitoring\""
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "SDK_NAME",
+          "variableTypeTokenRange": {
+            "startIndex": 0,
+            "endIndex": 0
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@monitoring/shared!SDK_VERSION:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "SDK_VERSION: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "SDK_VERSION",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "@monitoring/shared!voidFun:type",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare type voidFun = "
+            },
+            {
+              "kind": "Content",
+              "text": "() => void"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "voidFun",
+          "typeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        }
+      ]
+    }
+  ]
+}

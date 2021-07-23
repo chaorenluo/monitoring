@@ -1,0 +1,25 @@
+{
+  "name": "@monitoring/browser",
+  "version": "0.0.1",
+  "description": "A SDK For Monitoring Browser Errors",
+  "author": "cjinhuo",
+  "license": "MIT",
+  "main": "dist/browser.js",
+  "module": "dist/browser.esm.js",
+  "types": "dist/browser.d.ts",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@monitoring/core": "0.0.1",
+    "@monitoring/browser": "0.0.1",
+    "@monitoring/shared": "0.0.1",
+    "@monitoring/types": "0.0.1"
+  },
+  "buildOptions": {
+    "formats": [
+      "esm-bundler",
+      "cjs"
+    ]
+  }
+}

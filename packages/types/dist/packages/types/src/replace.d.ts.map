@@ -1,0 +1,1 @@
+{"version":3,"file":"replace.d.ts","sourceRoot":"","sources":["../../../../src/replace.ts"],"names":[],"mappings":"AACA,yBAAiB,OAAO,CAAC;IACrB,UAAiB,cAAc;QAC3B,IAAI,EAAE,GAAG,EAAE,CAAA;QACX,KAAK,EAAE,MAAM,CAAA;KAChB;IACD,UAAiB,OAAO;QACpB,IAAI,EAAE,MAAM,CAAA;QACZ,EAAE,EAAE,MAAM,CAAA;KACb;CACJ"}
